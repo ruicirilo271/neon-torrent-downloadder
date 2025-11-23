@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background: #02010a;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  color: #00eaff;
+  text-shadow: 0px 0px 15px #00eaff;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 30px 0 10px;
+  color: #00eaff;
+}
+
+.search-box {
+  width: 500px;
+  margin: 30px auto;
+  display: flex;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  background: #000;
+  color: #00eaff;
+  border: 2px solid #00eaff;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  background: #00eaff;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.results {
+  width: 90%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #081020;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 0px 15px #00eaff55;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cover {
+  display: block;
+  width: 320px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #00eaff88;
+}
+
+.torrent-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background: #00eaff;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  width: 80%;
+}

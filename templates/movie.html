@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Detalhes do Filme</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div id="movieDetails" class="movie-details"></div>
+
+<h2 class="subtitle">🎬 Sugestões de Filmes</h2>
+<div id="suggestions" class="results"></div>
+
+<script>
+const movieId = {{ movie_id }};
+</script>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

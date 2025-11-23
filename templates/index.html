@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Neon Torrent Downloader</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1 class="title">🔥 Neon Torrent Downloader</h1>
+
+<div class="search-box">
+    <input id="query" type="text" placeholder="Pesquisar filmes...">
+    <button onclick="searchMovies()">🔍 Pesquisar</button>
+</div>
+
+<div id="results" class="results"></div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
